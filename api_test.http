@@ -1,0 +1,15 @@
+@base_url = http://localhost
+@port = 3000
+@url={{base_url}}:{{port}}
+@product_api = {{url}}/products
+
+
+
+GET {{product_api}} HTTP/1.1
+
+###
+GET {{product_api}}/1 HTTP/1.1
+
+###
+GET http://localhost:3000/products/price?min=4000&max=7000 HTTP/1.1
+

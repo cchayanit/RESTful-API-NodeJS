@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.ja",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/cchayanit/RESTful-API-NodeJS/issues"
   },
-  "homepage": "https://github.com/cchayanit/RESTful-API-NodeJS#readme"
+  "homepage": "https://github.com/cchayanit/RESTful-API-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
